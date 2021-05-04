@@ -15,6 +15,7 @@ public class MenuJava {
         fiveInverseNumbers fiveInverseNumbers = new fiveInverseNumbers();
         stringConcat stringConcat = new stringConcat();
         stringReverse stringReverse = new stringReverse();
+        stringNoSpaces stringNoSpaces = new stringNoSpaces();
         //stringLength stringLength = new stringLength();
     
         Scanner teclado = new Scanner(System.in);
@@ -62,6 +63,7 @@ public class MenuJava {
                         break;
                     case 6:
                         System.out.println("Has seleccionado la opcion 6");
+                        stringNoSpaces.stringInputSpace();
                         break;
                     case 7:
                         System.out.println("Has seleccionado la opcion 7");
