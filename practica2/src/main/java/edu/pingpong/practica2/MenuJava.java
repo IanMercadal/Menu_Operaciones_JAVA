@@ -1,4 +1,4 @@
-package edu.pingpong.practica2;
+package practica2;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -16,7 +16,9 @@ public class MenuJava {
         stringConcat stringConcat = new stringConcat();
         stringReverse stringReverse = new stringReverse();
         stringNoSpaces stringNoSpaces = new stringNoSpaces();
-        //stringLength stringLength = new stringLength();
+        stringLength stringLength = new stringLength();
+        stringVocal stringVocal = new stringVocal();
+        stringAscii stringAscii = new stringAscii();
     
         Scanner teclado = new Scanner(System.in);
         boolean salir = false;
@@ -32,7 +34,7 @@ public class MenuJava {
             System.out.println("6. Opcion 6 - Introdicir texto y devolverlo sin espacios");
             System.out.println("7. Opcion 7 - Introducir dos cadenas y devolver concatenadas.");
             System.out.println("8. Opcion 8 - Inroducir una cadena y una vocal, sustituir todas las vocales de la cadena por la vocal que se ha pasado como parametros.");
-            System.out.println("9. Opcion 9 - Introducir una cadena, y muestre el código ASCII de cada uno de los caracteres de la cadena.");
+            System.out.println("9. Opcion 9 - Introducir una cadena, y muestre el codigo ASCII de cada uno de los caracteres de la cadena.");
             System.out.println("10. Opcion 10 - Salir");
  
             try {
@@ -55,7 +57,7 @@ public class MenuJava {
                         break;
                     case 4:
                         System.out.println("Has seleccionado la opcion 4");
-
+                        stringLength.stringInputLenght();
                         break;
                     case 5:
                         System.out.println("Has seleccionado la opcion 5");
@@ -71,9 +73,11 @@ public class MenuJava {
                         break;
                     case 8:
                         System.out.println("Has seleccionado la opcion 8");
+                        stringVocal.stringInputVocal();
                         break;
                     case 9:
                         System.out.println("Has seleccionado la opcion 9");
+                        stringAscii.stringInputAscii();
                         break;
                     case 10:
                         salir = true;

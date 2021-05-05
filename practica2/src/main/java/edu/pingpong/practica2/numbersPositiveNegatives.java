@@ -1,4 +1,4 @@
-package edu.pingpong.practica2;
+package practica2;
 import java.util.Scanner;
 
 public class numbersPositiveNegatives {

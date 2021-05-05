@@ -1,4 +1,4 @@
-package edu.pingpong.practica2;
+package practica2;
 import java.util.Scanner;
 
 public class fiveInverseNumbers {
@@ -16,7 +16,7 @@ public class fiveInverseNumbers {
             for (int i:elt){
                 System.out.println(i);
             }
-            System.out.print("\n Imprimiendo los elementos inversos");
+            System.out.println("\n Imprimiendo los elementos inversos");
             for (int i=5-1;i>=0;i--){
                 System.out.println(elt[i]);
         }
