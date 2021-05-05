@@ -1,5 +1,4 @@
-package practica2;
-
+package edu.pingpong.practica2;
 import java.util.Scanner;
 
 public class fiveOrderedNumbers {

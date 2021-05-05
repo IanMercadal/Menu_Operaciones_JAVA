@@ -1,4 +1,4 @@
-package practica2;
+package edu.pingpong.practica2;
 
 import java.util.Scanner;
 import java.util.regex.*;
